@@ -1,28 +1,34 @@
+<!-- HTML5 -->
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- -->
 <head>
-	<!-- meta data -->
+	<!-- meta data for site-->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- for mobile -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Launchpad technical test example for surf data">
 	<meta name="author" content="Thomas John Rowe">
-	<meta name="keywords" content="SurfItUp, Surf, Date, Time, API">
+	<meta name="keywords" content="SurfItUp, Surf, Date, Time, API, weather, speeds, height, city, current weather, weather information">
+	<meta name="description" content="For your surfing update need! Get current weather, speeds, heights and more for your city. Surf On! | Launchpad technical test example for surf data">
 
+	<!-- domain and page -->
 	<title>Surf It Up! Home.</title>
 
-	<!-- Custom fonts for this template-->
+	<!-- Custom fonts for this site -->
 	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
-	<!-- Page level plugin CSS-->
+	<!-- plugin CSS for site -->
 	<link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
-    <!-- Custom styles for this template-->
+    	<!-- main style for website -->
 	<link href="css/main.css" rel="stylesheet">
 	
 </head>
+	
+<!-- style for specific page -->
 <style>
+/* !importent for override of bootstrap css */
 	.navbar{
 		background-color: #1f7ecc !important;
 	}
@@ -32,17 +38,17 @@
 	.sidebar-nav{
 		font-weight: bold;
 	}
-    .navbar li a, .navbar .navbar-brand {
-     color: #fff !important;
-    }
-    .navbar-nav li a:hover, .navbar-nav li.active a {
-     color: #f4511e !important;
-     background-color: #fff !important;
-    }
-   .navbar-default .navbar-toggle {
-     border-color: transparent;
-     color: #fff !important;
-    }
+    	.navbar li a, .navbar .navbar-brand {
+     		color: #fff !important;
+    	}
+    	.navbar-nav li a:hover, .navbar-nav li.active a {
+     		color: #f4511e !important;
+     		background-color: #fff !important;
+    	}
+   	.navbar-default .navbar-toggle {
+     		border-color: transparent;
+     		color: #fff !important;
+    	}
 	.card-header{
 		background-color: #56a7e6 !important;
 	}
@@ -54,25 +60,23 @@
 	}
 </style>
 
+<!-- main content | "page-top" for nav to top button -->
 <body id="page-top">
-
-  <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-    <a style="text-align:center" class="navbar-brand mr-1" href="index.html">Surf <i>It</i> <b>Up</b></a>
-  </nav>
-
-  <div id="wrapper">
-  
+	
+	<nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+	  <a style="text-align:center" class="navbar-brand mr-1" href="index.html">Surf <i>It</i> <b>Up</b></a>
+	</nav>
+	
+	<div id="wrapper">
 	<!-- Sidebar -->
-    <ul class="sidebar navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.php">
-          <span class="sidebar-nav">Dashboard</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="search.php">
-          <span class="sidebar-nav">Search</span></a>
-      </li>
+	<ul class="sidebar navbar-nav">
+      		<li class="nav-item active">
+        	<a class="nav-link" href="index.php"><span class="sidebar-nav">Dashboard</span></a>
+      		</li>
+      		<li class="nav-item">
+        	<a class="nav-link" href="search.php">
+          	<span class="sidebar-nav">Search</span></a>
+      		</li>
       <li class="nav-item">
         <a class="nav-link" href="tables.php">
           <span class="sidebar-nav">Location Info</span></a>
